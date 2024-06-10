@@ -2,8 +2,14 @@
 
 import React from "react";
 
+import Spinner from "../Spinner";
+
 function StyleGenerator() {
-  return <div>{/* where the magic happens */}</div>;
+  return (
+    <div>
+      <Spinner />
+    </div>
+  );
 }
 
 export default StyleGenerator;
